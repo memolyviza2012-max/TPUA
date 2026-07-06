@@ -1,0 +1,10 @@
+{
+    "id": "flagship.tpua",
+    "name": "TPUA Text Converter",
+    "version": "1.2.0",
+    "description": "Text encoding/decoding tool for PUA ecosystem.",
+    "author": "THub",
+    "main": "tpua_app.py",
+    "executable": "run_tpua.bat",
+    "type": "flagship_tool"
+}
