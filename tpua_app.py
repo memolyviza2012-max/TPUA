@@ -92,8 +92,8 @@ class TPUAApp(QMainWindow):
         self.tab_text = QWidget()
         self.init_text_tab()
         tpua_logo_path = str(get_resource_path(os.path.join("assets", "TPUA.png")))
-        if not os.path.exists(logo_path):
-            logo_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "assets", "TPUA.png"))
+        if not os.path.exists(tpua_logo_path):
+            tpua_logo_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "assets", "TPUA.png"))
         if os.path.exists(tpua_logo_path):
             self.tabs.addTab(self.tab_text, QIcon(tpua_logo_path), _("tab_text_converter"))
         else:
